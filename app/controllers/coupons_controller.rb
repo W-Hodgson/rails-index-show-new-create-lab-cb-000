@@ -13,5 +13,6 @@ class CouponsController < ApplicationController
   end
 
   def show
+    @coupon = Coupon.last
   end
 end
