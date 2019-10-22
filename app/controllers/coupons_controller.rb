@@ -8,6 +8,6 @@ class CouponsController < ApplicationController
   end
 
   def create
-
+    Coupon.create()
   end
 end
