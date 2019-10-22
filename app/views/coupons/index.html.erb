@@ -7,7 +7,7 @@
   <body>
     <% @coupons.each do |coupon| %>
       <h3><%= coupon.store %></h3>
-      <h3> <a href="<%= coupon_path(coupon) %>"></a> <%= coupon.coupon_code %></h3>
+      <h3> <a href="<%= coupon_path(coupon) %>"><%= coupon.coupon_code %></a> </h3>
     <% end %>
   </body>
 </html>
